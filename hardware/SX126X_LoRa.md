@@ -24,6 +24,5 @@ Following works with E22, DX-LR20, DX-LR30 SPI modules
 | 10         | 12        | RXEN     |
 | 11         | 3V3       |          |
 | 12         | GND       |          |
-|------------|-----------|----------|
 
 Additionally connect LoRa **TXEN** to LoRa **DIO2**. Optionally, solder the capacitor to GND and VCC lines next to the module.  
