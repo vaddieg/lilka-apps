@@ -6,7 +6,7 @@ KeiraOS allows running precompiled ESP32-S3 firmwares from the SD card as if the
 
 # Installation
 
-Pick a precompiled `.bin` file from the corresponding app directory and copy it to the Lilka SD card. Alternatively, compile your own firmware (see instructions below).
+Download a precompiled `.bin` file from the corresponding app directory and copy it to the Lilka SD card. Use "raw" download option on the GitHub. Alternatively, compile your own firmware (see instructions below).
 
 # Hardware
 
