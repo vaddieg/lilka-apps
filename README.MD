@@ -2,11 +2,11 @@
 
 This is my collection of popular MCU applications ported to the ESP32-based Lilka console: https://lilka.dev.
 
-KeiraOS allows running precompiled ESP32-S3 firmwares from the SD card as if they were regular apps, turning the console into a multi-purpose LoRa/SDR device.
+KeiraOS allows running precompiled ESP32-S3 firmwares from the SD card as if they were regular apps, turning the console into a multi-purpose LoRa/SDR device. Everything I add to this collection is tested with Lilka v2 and extensions listed in the **hardware**.
 
 # Installation
 
-Download a precompiled `.bin` file from the corresponding app directory and copy it to the Lilka SD card. Use "raw" download option on the GitHub. Alternatively, compile your own firmware (see instructions below).
+Download a precompiled `.bin` file from the corresponding app directory and copy it to the Lilka SD card. Use "raw" download option on the GitHub to prevent file corruption. Alternatively, compile your own copy of firmwares (see instructions below).
 
 # Hardware
 

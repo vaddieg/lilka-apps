@@ -1,6 +1,6 @@
 # SX126x LoRa module for Lilka
 
-Following works with E22, DX-LR20, DX-LR30 SPI modules
+Following works with E22, DX-LR20, DX-LR30 and most likely other SPI LoRa modules.
 
 ## Inventory
 - LoRa module
