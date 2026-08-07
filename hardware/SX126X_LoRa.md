@@ -2,6 +2,9 @@
 
 Following works with E22, DX-LR20, DX-LR30 and most likely other SPI LoRa modules.
 
+## Compatibility
+Meshtastic, Meshcore, Bruce LoRa chat
+
 ## Inventory
 - LoRa module
 - 20x80 prototype PCB
