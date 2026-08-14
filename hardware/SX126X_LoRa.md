@@ -14,6 +14,9 @@ Meshtastic, Meshcore, Bruce LoRa chat
 - thin copper wires
 - a ceramic capacitor 0.2-0.5uF (optional)
 
+  <img width="1088" height="770" alt="components" src="https://github.com/user-attachments/assets/7269fe72-5b5b-48e5-96be-0f51c9175015" />
+
+
 ## Wiring
 | Lilka J2 # | Lilka pin | LoRa pin |
 |------------|-----------|----------|
@@ -31,3 +34,8 @@ Meshtastic, Meshcore, Bruce LoRa chat
 | 12         | GND       |          |
 
 Additionally connect LoRa **TXEN** to LoRa **DIO2**. Optionally, solder the capacitor to GND and VCC lines next to the module.  
+
+## Assembly
+There are many intersecting wires, use both sides of PCB to lay them out. You can change the orientation of the 12-pin header, but keep in mind that the working orientation of LoRa monopole antennas is vertical.
+<img width="975" height="459" alt="Screenshot 2026-08-14 at 16 28 20" src="https://github.com/user-attachments/assets/f294ca16-9855-479e-a185-3856b470e28f" />
+
