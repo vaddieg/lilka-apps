@@ -1,6 +1,8 @@
 # SX126x LoRa module for Lilka
 
 Following works with E22, DX-LR20, DX-LR30 and most likely other SPI LoRa modules.
+<img width="402" height="359" alt="Screenshot 2026-08-14 at 16 07 43" src="https://github.com/user-attachments/assets/a8635eec-7a21-4817-aab4-7783699bf82e" />
+
 
 ## Compatibility
 Meshtastic, Meshcore, Bruce LoRa chat
