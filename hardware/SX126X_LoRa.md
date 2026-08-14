@@ -14,7 +14,7 @@ Meshtastic, Meshcore, Bruce LoRa chat
 - thin copper wires
 - a ceramic capacitor 0.2-0.5uF (optional)
 
-  <img width="1088" height="770" alt="components" src="https://github.com/user-attachments/assets/7269fe72-5b5b-48e5-96be-0f51c9175015" />
+  <img width="544" height="385" alt="components" src="https://github.com/user-attachments/assets/7269fe72-5b5b-48e5-96be-0f51c9175015" />
 
 
 ## Wiring
