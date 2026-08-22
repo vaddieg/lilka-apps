@@ -2,31 +2,35 @@
 
 Inspired by DIY module recommended by Bruce firmware developers https://tasmota.github.io/docs/IR-Remote/#related-projects
 
+## Parts
+Most common 38kHz IR receivers are TSOPxxx38. Typical pinout: OUT, GND, Vcc (protruding side up, left to right)
+You could use nearly any 36-38kHz 3-pin IC, but check the Datasheet for pinout.
+IR emitting LED could be scraped from any old TV or AC remote
+
 ## Compatibility
-Bruce and other IR apps
+Bruce and other IR apps. App settings: IR RX pin 21, IR TX pin 14 
 
 ## Inventory <with pins>
-- IR LED (scraped from any IR remote) - LED1<+,->
-- IR Receiver 36-38 kHz - IRR<1,2,3>
+- IR Emitter - LED1<+,->
+- IR Receiver TSOP4838 - IRR<1,2,3>
 - 2N222 transistor Q1<b,c,e>
-- 100 Ohm resistor R1<1,2>
+- 100 Ω resistor R1<1,2>
+- 1 kΩ resistor R2<1,2> 
 - 20x80 prototype PCB (cut a half)
 - female 12-pin header J1<1-12>
 - thin copper wires
 
-## Wiring (TODO)
+## Wiring
 | Lilka J2 # | Lilka pin | Destination |
 |------------|-----------|-------------|
-| 1          | GND       | Q1<e>,IRR<3>|
-| 2          | 3V3       | IRR<1>,R1<1>|
-| 3          | RX (44)   |             |
-| 4          | TX (43)   |             |
-| 5          | 48        |             |
-| 6          | 47        |             |
-| 7          | 21        |             |
-| 8          | 14        |             |
+| 7          | 21        | IRR<1>      |
+| 8          | 14        | R2<1>       |
 | 9          | 13        |             |
 | 10         | 12        |             |
-| 11         | 3V3       |             |
-| 12         | GND       |             |
+| 11         | 3V3       | IRR<3>,R1<1>|
+| 12         | GND       | Q1<e>,IRR<2>|
+|            |           | Q1<b>,R2<2> |
+|            |           |Q1<c>,LED1<->|
+|            |           |LED1<+>,R1<2>|
 
+It's recommended to test your circuit on a breadboard first before soldering. Use phone camera to verify that IR emitter works.
