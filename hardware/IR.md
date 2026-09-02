@@ -12,8 +12,8 @@ Bruce and other IR apps. App settings: IR RX pin 14, IR TX pin 21
 
 ## Inventory <pin name>
 - IR Emitter - 940nm LED1<+,->
-- IR Receiver TSOP4838 - IRR<OUT,GND,VCC>
-- 2N222 transistor Q1<c,b,e>
+- IR Receiver TSOP4838 - IRR\<\OUT,GND,VCC\>
+- 2N222 transistor Q1\<e,b,c\>
 - 22 Ω resistor R1<1,2>
 - 1 kΩ resistor R2<1,2> 
 - 20x80 prototype PCB (cut a half)
@@ -23,19 +23,19 @@ Bruce and other IR apps. App settings: IR RX pin 14, IR TX pin 21
 ## Wiring
 | Lilka J2 # | Lilka pin | Destination |
 |------------|-----------|-------------|
-| 1          | GND       |   Q1<e>     |
+| 1          | GND       |   Q1\<e\>   |
 | 2          | 3V3       |   R1<1>     |
 | ..         |           |             |
 | 7          | 21        |   R2<1>     |
-| 8          | 14        |   IRR<OUT>  |
+| 8          | 14        |   IRR\<OUT\>|
 | 9          | 13        |             |
 | 10         | 12        |             |
-| 11         | 3V3       |   IRR<VCC>  |
-| 12         | GND       |   IRR<GND>  |
+| 11         | 3V3       |   IRR\<VCC\>|
+| 12         | GND       |   IRR\<GND\>|
 
 Interconnections:
-Q1<b>   to R2<2>
-Q1<c>   to LED1<->
+Q1\<b\>   to R2<2>
+Q1\<c\>   to LED1<->
 LED1<+> to R1<2>
 
 It's recommended to test your circuit on a breadboard first before soldering. Use phone camera to verify that IR emitter works.
