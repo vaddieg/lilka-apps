@@ -43,3 +43,8 @@ LED1<+> to R1<2>
 
 It's recommended to test your circuit on a breadboard first before soldering. Use phone camera to verify that IR emitter works.
 Depending on IR LED used the R1 value might need to be reduced to 10 or 15 Ω for improved IR range.
+
+## Assembly
+All parts except of LED are mounted horizontally. Soldered joints on the back PCB side should not raise more than 1mm.
+<img width="900" height="572" alt="ir_assembly2" src="https://github.com/user-attachments/assets/ad5731fb-c2d2-499d-a5f7-675996548b5e" />
+
