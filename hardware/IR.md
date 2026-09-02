@@ -1,6 +1,7 @@
 # IR receiver/transmitter module for Lilka
 
 Inspired by DIY module recommended by Bruce firmware developers https://tasmota.github.io/docs/IR-Remote/#related-projects
+<img width="594" height="454" alt="IR_schem" src="https://github.com/user-attachments/assets/ce36657e-e1ff-469c-8c52-ce612982e0d9" />
 
 ## Parts
 Most common 38kHz IR receivers are TSOPxxx38. Typical pinout: OUT, GND, Vcc (protruding side up, left to right)
@@ -12,7 +13,7 @@ Bruce and other IR apps. App settings: IR RX pin 14, IR TX pin 21
 
 ## Inventory <pin name>
 - IR Emitter - 940nm LED1<+,->
-- IR Receiver TSOP4838 - IRR\<\OUT,GND,VCC\>
+- IR Receiver TSOP4838 - IRR\<OUT,GND,VCC\>
 - 2N222 transistor Q1\<e,b,c\>
 - 22 Ω resistor R1<1,2>
 - 1 kΩ resistor R2<1,2> 
@@ -21,6 +22,8 @@ Bruce and other IR apps. App settings: IR RX pin 14, IR TX pin 21
 - thin copper wires
 
 ## Wiring
+<img width="459" height="366" alt="IR_bb" src="https://github.com/user-attachments/assets/be6c9f97-f161-4cc9-85c0-ebfcf2e37328" />
+
 | Lilka J2 # | Lilka pin | Destination |
 |------------|-----------|-------------|
 | 1          | GND       |   Q1\<e\>   |
