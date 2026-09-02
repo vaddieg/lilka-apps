@@ -46,5 +46,5 @@ Depending on IR LED used the R1 value might need to be reduced to 10 or 15 Ω fo
 
 ## Assembly
 All parts except of LED are mounted horizontally. Soldered joints on the back PCB side should not raise more than 1mm.
-<img width="900" height="572" alt="ir_assembly2" src="https://github.com/user-attachments/assets/ad5731fb-c2d2-499d-a5f7-675996548b5e" />
+<img width="450" height="286" alt="ir_assembly2" src="https://github.com/user-attachments/assets/ad5731fb-c2d2-499d-a5f7-675996548b5e" />
 
