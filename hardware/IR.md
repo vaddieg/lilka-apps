@@ -22,7 +22,7 @@ Bruce and other IR apps. App settings: IR RX pin 14, IR TX pin 21
 - thin copper wires
 
 ## Wiring
-<img width="459" height="366" alt="IR_bb" src="https://github.com/user-attachments/assets/be6c9f97-f161-4cc9-85c0-ebfcf2e37328" />
+<img width="459" height="366" alt="IR_bb" src="https://github.com/user-attachments/assets/78f79279-514b-4cd2-90c7-da5035d041f0" />
 
 | Lilka J2 # | Lilka pin | Destination |
 |------------|-----------|-------------|
