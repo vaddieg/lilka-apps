@@ -1,12 +1,14 @@
-# FS1000A RF module for Lilka
+# FS1000A + XY-MK-5V RF module for Lilka
 
-Based on https://github.com/BruceDevices/firmware/wiki/RF#unofficial-modules not yet tested
+Based on https://github.com/BruceDevices/firmware/wiki/RF#unofficial-modules
 
 ## Compatibility
-Bruce firmware, limited to ASK/OOK modulation. Might not work well with 3.3v supply
+Bruce firmware, limited to outdated ASK/OOK modulation. 433 MHz Wireless Remote apps.
 
 ## Inventory
-- 4-pin 433 Mhz Wireless Receiver Module (often sold with FS1000A)
+- 4-pin FS1000A 433 Mhz Wireless Receiver
+- 3-pin XY-MK-5V Wireless Transceiver 
+- 2x 433 MHz helical antennas or 16.5cm single-core copper wire
 - 20x80 prototype PCB
 - female 12-pin header
 - thin copper wires
