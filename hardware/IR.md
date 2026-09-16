@@ -1,7 +1,7 @@
 # IR receiver/transmitter module for Lilka
 
 Inspired by DIY module recommended by Bruce firmware developers https://tasmota.github.io/docs/IR-Remote/#related-projects
-<img width="594" height="454" alt="IR_schem" src="IR_schem.png" />
+<img width="464" height="424" alt="IR_schem" src="IR_schem.png" />
 
 ## Parts
 Most common 38kHz IR receivers are TSOPxxx38. Typical pinout: OUT, GND, Vcc (protruding side up, left to right)
