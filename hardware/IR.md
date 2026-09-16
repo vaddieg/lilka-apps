@@ -9,7 +9,7 @@ You could use nearly any 36-38kHz 3-pin IC, but check the Datasheet for pinout.
 IR emitting LED could be scraped from any old TV or AC remote
 
 ## Compatibility
-Bruce and other IR apps. App settings: IR RX pin 14, IR TX pin 21
+Bruce and other IR control apps. App settings: IR RX pin 14, IR TX pin 21
 
 ## Inventory <pin name>
 - IR Emitter - 940nm LED1<+,->

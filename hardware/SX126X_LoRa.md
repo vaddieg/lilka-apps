@@ -5,7 +5,7 @@ Following works with E22, DX-LR20, DX-LR30 and most likely other 12-pin SPI LoRa
 
 
 ## Compatibility
-Meshtastic, Meshcore, Bruce LoRa chat
+Meshtastic, Meshcore, Bruce LoRa chat. Bruce LoRa settings: SX126x
 
 ## Inventory
 - LoRa module
