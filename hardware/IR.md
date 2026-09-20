@@ -9,14 +9,15 @@ You could use nearly any 36-38kHz 3-pin IC, but check the Datasheet for pinout.
 IR emitting LED could be scraped from any old TV or AC remote
 
 ## Compatibility
-Bruce and other IR control apps. App settings: IR RX pin 14, IR TX pin 21
+Bruce, LUA IR contol https://github.com/sverdlyuk/lilka_ir and other IR control apps.
+App settings: IR RX pin 14, IR TX pin 21
 
 ## Inventory <pin name>
 - IR Emitter - 940nm LED1<+,->
 - IR Receiver TSOP4838 - IRR\<OUT,GND,VCC\>
 - 2N222 transistor Q1\<e,b,c\>
 - 22 Ω resistor R1<1,2>
-- 1 kΩ resistor R2<1,2> 
+- 0.5-1 kΩ resistor R2<1,2> 
 - 20x80 prototype PCB (cut a half)
 - female 12-pin header J1<1-12>
 - thin copper wires
