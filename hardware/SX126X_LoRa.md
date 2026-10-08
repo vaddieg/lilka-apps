@@ -36,6 +36,7 @@ Meshtastic, Meshcore, Bruce LoRa chat. Bruce LoRa settings: SX126x
 Additionally connect LoRa **TXEN** to LoRa **DIO2**. Optionally, solder the capacitor to GND and VCC lines next to the module.  
 
 ## Assembly
-There are many intersecting wires, use both sides of PCB to lay them out. You can change the orientation of the 12-pin header, but keep in mind that the working orientation of LoRa monopole antennas is vertical.
+The female pin header and the LoRa module are aligned to ensure a secure fit when plugged into Lilka.
+There are many intersecting wires, use both sides of PCB to lay them out. You can change the orientation of the 12-pin header, but keep in mind that the working orientation of LoRa most common antennas is vertical.
 <img width="975" height="459" alt="Screenshot 2026-08-14 at 16 28 20" src="https://github.com/user-attachments/assets/f294ca16-9855-479e-a185-3856b470e28f" />
 

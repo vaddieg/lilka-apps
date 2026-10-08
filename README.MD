@@ -11,6 +11,7 @@ Download a precompiled `.bin` file from the corresponding app directory and copy
 # Hardware
 
 The Lilka console is compatible with a variety of radios and sensors, but you may need to do some soldering to connect them. See the **hardware** directory for details.
+The assembly examples are intended for Lilka equipped with a bent male 12-pin header. You may need to make adjustments depending on your specific configuration.
 
 # Compilation
 

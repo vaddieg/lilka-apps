@@ -32,4 +32,4 @@ Bruce settings: RX 14,  TX 21
 | 12         | GND       |          |
 
 ## Status
-Assembled and tested on a breadboard using Bruce. Decided not to solder a module due to limited usefulness 
+Assembled and tested on a breadboard using Bruce. Decided not to solder a module due to limited usefulness and double antenna requirement.
