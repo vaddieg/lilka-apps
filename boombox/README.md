@@ -10,7 +10,8 @@ https://github.com/vaddieg/lilka-boombox
   volume, and **shuffle** (press again to restore the original order).
 - **Internet radio** — user station list from the SD card, or a built-in
   fallback list. Stream titles shown when the server sends them (ICY).
-- **15-band live spectrum** and a stepped color volume meter.
+- **Airplay receiver** - play music from Mac/iPhone directly
+- **Music visualizers** and a stepped color volume meter.
 
 ## Supported formats
 
@@ -25,5 +26,5 @@ https://github.com/vaddieg/lilka-boombox
 ```
 
 ## Installation
-
 Download the BIN file and copy it to the Lilka's SD card. Launch from Keira OS.
+Lilkatalog version: https://catalog.lilka.dev/?type=apps&item=lilka-boombox
