@@ -8,7 +8,7 @@ Bruce settings: RX 14,  TX 21
 
 ## Inventory
 - 4-pin FS1000A 433 Mhz Wireless Receiver
-- 3-pin XY-MK-5V 433 Mhz Wireless Transceiver 
+- 3-pin XY-MK-5V 433 Mhz Wireless Transmitter 
 - 2x 433 MHz helical antennas or 2x 16.5cm single-core copper wires
 - 20x80 prototype PCB
 - female 12-pin header
@@ -18,18 +18,17 @@ Bruce settings: RX 14,  TX 21
 ## Wiring
 | Lilka J2 # | Lilka pin | Module pin |
 |------------|-----------|------------|
-| 1          | GND       | GND      |
-| 2          | 3V3       | VCC      |
+| 1          | GND       | XY-MK GND  |
+| 2          | 3V3       | XY-MK VCC  |
 | 3          | 44        |     |
 | 4          | 43        |     |
 | 5          | 48        |     |
 | 6          | 47        |     |
-| 7          | 21        |     |
-| 8          | 14        |     |
+| 7          | 21        |XY-MK(DATA)  |
+| 8          | 14        |FS1000A(DATA)|
 | 9          | 13        |     |
 | 10         | 12        |     |
-| 11         | 3V3       |          |
-| 12         | GND       |          |
-
+| 11         | 3V3       |FS1000A(VCC) |
+| 12         | GND       |FS1000A(GND) |
 ## Status
 Assembled and tested on a breadboard using Bruce. Decided not to solder a module due to limited usefulness and double antenna requirement.

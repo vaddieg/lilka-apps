@@ -1,0 +1,37 @@
+# FS1000A + XY-MK-5V RF module for Lilka
+RF-модуль на базі дуже дешевих та давно доступних для Arduino 433-Мгц платок. Можна використати
+для клонування архаїчних RF-ключів, чи пультів керування
+
+Ідея модуля запозичена в https://github.com/BruceDevices/firmware/wiki/RF#unofficial-modules
+
+## Сумісність
+Прошивка Bruce, лише деякі функції розділу RF з модуляцією ASK/OOK.
+Bruce settings: RX 14,  TX 21
+
+## Inventory
+- 4-pin FS1000A 433 Mhz Wireless Receiver (GND, DATA, NA, VCC)
+- 3-pin XY-MK-5V 433 Mhz Wireless Transmitter (GND, VCC, DATA)
+- 2x 433 MHz helical antennas or 2x 16.5cm single-core copper wires
+- 20x80 prototype PCB
+- female 12-pin header
+- thin copper wires
+- a ceramic capacitor 0.2-0.5uF (optional)
+
+## Wiring
+| Lilka J2 # | Lilka pin | Module pin |
+|------------|-----------|------------|
+| 1          | GND       | XY-MK GND  |
+| 2          | 3V3       | XY-MK VCC  |
+| 3          | 44        |     |
+| 4          | 43        |     |
+| 5          | 48        |     |
+| 6          | 47        |     |
+| 7          | 21        |XY-MK(DATA)  |
+| 8          | 14        |FS1000A(DATA)|
+| 9          | 13        |     |
+| 10         | 12        |     |
+| 11         | 3V3       |FS1000A(VCC) |
+| 12         | GND       |FS1000A(GND) |
+
+## Status
+Assembled and tested on a breadboard using Bruce. Decided not to solder a module due to limited usefulness and double antenna requirement.
