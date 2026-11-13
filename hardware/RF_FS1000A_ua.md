@@ -1,27 +1,27 @@
-# FS1000A + XY-MK-5V RF module for Lilka
+# FS1000A + XY-MK-5V 433 Мгц радіо-модуль
 RF-модуль на базі дуже дешевих та давно доступних для Arduino 433-Мгц платок. Можна використати
 для клонування архаїчних RF-ключів, чи пультів керування
 
-Ідея модуля запозичена в https://github.com/BruceDevices/firmware/wiki/RF#unofficial-modules
+Ідея для модуля запозичена в https://github.com/BruceDevices/firmware/wiki/RF#unofficial-modules
 
 ## Сумісність
 Прошивка Bruce, лише деякі функції розділу RF з модуляцією ASK/OOK.
 Bruce settings: RX 14,  TX 21
 
-## Inventory
-- 4-pin FS1000A 433 Mhz Wireless Receiver (GND, DATA, NA, VCC)
-- 3-pin XY-MK-5V 433 Mhz Wireless Transmitter (GND, VCC, DATA)
-- 2x 433 MHz helical antennas or 2x 16.5cm single-core copper wires
-- 20x80 prototype PCB
-- female 12-pin header
-- thin copper wires
-- a ceramic capacitor 0.2-0.5uF (optional)
+## Необхідні компоненти
+- Приймач 4-pin FS1000A 433 Mhz (GND, DATA, NA, VCC)
+- Передавач 3-pin XY-MK-5V 433 Mhz (GND, VCC, DATA)
+- дві антени на 433 MHz, або 2 шматки мідного дроту довжиною 16.5 см та товщиною 0.3-0.8 мм
+- Макетна плата розміром 20 × 80 мм (половинка)
+- 12-контактний гніздовий роз'єм (мама, якщо у Ваша Лілка зібрана як у мене)
+- тонкий мідний провід
+- керамічний конденсатор 0,2-0,5 мкФ (необовʼязково)
 
-## Wiring
+## Підключення
 | Lilka J2 # | Lilka pin | Module pin |
 |------------|-----------|------------|
-| 1          | GND       | XY-MK GND  |
-| 2          | 3V3       | XY-MK VCC  |
+| 1          | GND       | XY-MK(GND) |
+| 2          | 3V3       | XY-MK(VCC) |
 | 3          | 44        |     |
 | 4          | 43        |     |
 | 5          | 48        |     |
@@ -33,5 +33,6 @@ Bruce settings: RX 14,  TX 21
 | 11         | 3V3       |FS1000A(VCC) |
 | 12         | GND       |FS1000A(GND) |
 
-## Status
-Assembled and tested on a breadboard using Bruce. Decided not to solder a module due to limited usefulness and double antenna requirement.
+## Збирання
+Я зібрав та протестував модуль лише на панелі для прототипування без розпайки. Додаткові транзистор (BC547), 2 резистори та світлодіод допомогають моніторити прийом.
+Модуль виходить малокорисний та громіздкий. Натомість я рекомендую зібрати CC1101 https://catalog.lilka.dev/?type=mods&item=rf-c1101

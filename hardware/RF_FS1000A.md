@@ -32,3 +32,4 @@ Bruce settings: RX 14,  TX 21
 | 12         | GND       |FS1000A(GND) |
 ## Status
 Assembled and tested on a breadboard using Bruce. Decided not to solder a module due to limited usefulness and double antenna requirement.
+I strongly recommend to use CC1101 module instead https://catalog.lilka.dev/?type=mods&item=rf-c1101
